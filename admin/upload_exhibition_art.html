@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Login Form Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='login' id='login'>
+  <div class='head'>
+  <h1 class='company'>Upload Exhibition Arts</h1>
+  
+  </div>
+  
+  <div class='form'>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="image-upload">Select up to 17 images to upload:</label>
+        <input type="file" id="image-upload" name="images[]" accept="image/jpeg" multiple>
+        <br><br>
+        <input class='btn-login' id='do-login' type="submit" value="Upload">
+    </form>
+  </div>
+</section>
+<footer>
+  
+</footer>
+
+
+</body>
+</html>

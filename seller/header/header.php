@@ -45,10 +45,13 @@ $a=$_SESSION["sellerid"];
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="add_course.php">Add Course</a></li>
-					<li><a href="manage_feedback.php">Manage Feedbacks</a></li>
+					<li><a href="view_booking_detail.php">View Bookings Details </a></li>
 					<li><a href="view_payment_detail.php">View Payments Details </a></li>
 					<li><a href="add_product.php">Add Arts</a></li>
+					<li><a href="upload_exhibition_art.html">Add Exhibition Arts</a></li>
+					<li><a href="http://localhost/3D ART GALLERY/vr_art/">Exhibition</a></li>
+					<li><a href="add_course.php">Add Course</a></li>
+					<li><a href="manage_feedback.php">Manage Feedbacks</a></li>
 					<li><a class="a button special" href="seller_logout.php?id=<?php echo $a;?>">Log Out</a></li>
 				</ul>
 			</nav>

@@ -153,6 +153,11 @@ include("../connection.php");
           <li><a href="exhibitionevents.php">View Exhibition & Events</a>
 
           </li>
+
+          <li><a href="http://localhost/3D ART GALLERY/vr_art/">Virtual Tour</a>
+
+          </li>
+
 		      <li><a href="courses.php">View Courses</a>
 
           </li>

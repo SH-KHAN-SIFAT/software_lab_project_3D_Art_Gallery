@@ -20,6 +20,7 @@ session_start(); // Start the session
       <div class="logo"><a href="index.php"><span>Art Gallery</span></a></div>
       <ul class="nav navbar-nav custom-navbar">
          <li class="active"><a href="index.php">Home</a></li>
+         <li><a href="http://localhost/3D ART GALLERY/virtual_tour/">Demo Virtual Tour</a></li>
          <li><a href="index.php?page=customer_register">User Register</a></li>
          <li><a href="index.php?page=seller_register">Artist Register</a></li>
 
